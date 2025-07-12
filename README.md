@@ -8,6 +8,7 @@ This project is built using **React** with **Vite**, providing a fast and modern
 
 - React + Vite base setup
 - Fast Refresh with Babel or SWC
+- Redux for global state management
 - ESLint integration for clean code
 - Easy setup and developer-friendly environment
 
@@ -16,21 +17,23 @@ This project is built using **React** with **Vite**, providing a fast and modern
 ## 📦 React Version Used
 
 - **React**: 18.x  
-> *(You can verify the exact version in `package.json` under `dependencies.react`)*
+> *(Check `package.json` for the exact version)*
 
 ---
 
 ## 📚 Libraries Used
 
-| Library             | Purpose                          |
-|---------------------|----------------------------------|
-| `axios`             | For making API calls             |
-| `react-router-dom`  | For client-side routing          |
-| `vite`              | Frontend build tool              |
-| `eslint`            | JavaScript/React linting         |
-| `@vitejs/plugin-react` | Vite plugin for React with HMR |
+| Library                | Purpose                            |
+|------------------------|------------------------------------|
+| `redux`                | For global state management        |
+| `react-redux`          | React bindings for Redux           |
+| `axios`                | For making API calls               |
+| `react-router-dom`     | For client-side routing            |
+| `vite`                 | Frontend build tool                |
+| `eslint`               | JavaScript/React linting           |
+| `@vitejs/plugin-react` | Vite plugin for React with HMR     |
 
-> *(Add or remove libraries here based on your actual dependencies.)*
+> *(Add/remove based on your actual `package.json`.)*
 
 ---
 
@@ -42,6 +45,7 @@ Follow the steps below to get this project running locally:
 ```bash
 git clone https://github.com/shreyas3155/StackdotFinal.git
 cd StackdotFinal
+
 
 2. Install Dependencies
 
